@@ -7,17 +7,31 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
-            buildForTesting = "NO"
+            buildForTesting = "YES"
             buildForRunning = "YES"
             buildForProfiling = "YES"
             buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "837CE42F1D4C5B6900EC3FDA"
-               BuildableName = "IBLocalizableSample.app"
-               BlueprintName = "IBLocalizableSample"
-               ReferencedContainer = "container:IBLocalizable.xcodeproj">
+               BlueprintIdentifier = "IBLocalizable"
+               BuildableName = "IBLocalizable"
+               BlueprintName = "IBLocalizable"
+               ReferencedContainer = "container:">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "IBLocalizableTests"
+               BuildableName = "IBLocalizableTests"
+               BlueprintName = "IBLocalizableTests"
+               ReferencedContainer = "container:">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,16 +41,17 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "837CE42F1D4C5B6900EC3FDA"
-            BuildableName = "IBLocalizableSample.app"
-            BlueprintName = "IBLocalizableSample"
-            ReferencedContainer = "container:IBLocalizable.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "IBLocalizableTests"
+               BuildableName = "IBLocalizableTests"
+               BlueprintName = "IBLocalizableTests"
+               ReferencedContainer = "container:">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -49,16 +64,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "837CE42F1D4C5B6900EC3FDA"
-            BuildableName = "IBLocalizableSample.app"
-            BlueprintName = "IBLocalizableSample"
-            ReferencedContainer = "container:IBLocalizable.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -66,16 +71,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "837CE42F1D4C5B6900EC3FDA"
-            BuildableName = "IBLocalizableSample.app"
-            BlueprintName = "IBLocalizableSample"
-            ReferencedContainer = "container:IBLocalizable.xcodeproj">
+            BlueprintIdentifier = "IBLocalizable"
+            BuildableName = "IBLocalizable"
+            BlueprintName = "IBLocalizable"
+            ReferencedContainer = "container:">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
