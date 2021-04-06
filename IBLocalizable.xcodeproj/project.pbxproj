@@ -106,7 +106,6 @@
 				837CE4291D4C590D00EC3FDA /* Utils */,
 				837CE4261D4C579500EC3FDA /* Views */,
 				837CE40C1D4C50B000EC3FDA /* IBLocalizable.h */,
-				837CE40E1D4C50B000EC3FDA /* Info.plist */,
 			);
 			path = IBLocalizable;
 			sourceTree = "<group>";
@@ -125,6 +124,7 @@
 		837CE3FF1D4C50B000EC3FDA = {
 			isa = PBXGroup;
 			children = (
+				837CE40E1D4C50B000EC3FDA /* Info.plist */,
 				29637140261C87CF002999D4 /* Sources */,
 				837CE4311D4C5B6900EC3FDA /* IBLocalizableSample */,
 				837CE40A1D4C50B000EC3FDA /* Products */,
@@ -508,13 +508,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 102;
+				CURRENT_PROJECT_VERSION = 136;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = PA7FYQ7QHZ;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/IBLocalizable/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -522,7 +522,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.3.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.IBLocalizable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -542,13 +542,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 102;
+				CURRENT_PROJECT_VERSION = 136;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = PA7FYQ7QHZ;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/IBLocalizable/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -556,7 +556,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.3.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.IBLocalizable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
